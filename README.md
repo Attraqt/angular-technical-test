@@ -28,7 +28,7 @@ Monitoring is based on API access logs.
 ```
 ### Attributes
 
-| namea               | type   | required                                   | description                                                                                                                                                                 |
+| name                | type   | required                                   | description                                                                                                                                                                 |
 |---------------------|--------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `timestamp`         | Number | yes                                        | Unix timestamp of the log in seconds                                                                                                                                        |
 | `url`               | String | yes                                        | Request URL                                                                                                                                                                 |
@@ -39,9 +39,9 @@ Monitoring is based on API access logs.
 
 ### Test Sample
 
-A sample of logs spaning a one-month period is provided in this file: [access_logs.json](access_logs.json)
+A sample of logs spanning a one-month period is provided in this file: [access_logs.json](access_logs.json)
 
-## Exercice requirements
+## Exercise requirements
 
 Develop an Angular 17+ application to monitor access logs.
 
@@ -53,21 +53,21 @@ It should consist of:
   - URL path (without query parameters)
   - response time range
 
-- A stacked bar graph showing the number of requests per our or per day based on selected filters. Hour/day granulariy can be selected by the user.
-Each bar of the graph is divided into 3 sections to show the propotion of requests statuses:
+- A stacked bar graph showing the number of requests per hour or per day based on selected filters. Hour/day granularity can be selected by the user.
+Each bar of the graph is divided into 3 sections to show the proportion of requests statuses:
   - Green section: Success
   - Yellow section: Warning
   - Red section: Error
 
 - A list of logs matching the filters, with infinite scroll
 
-Please Provide instructions to start the application with the sample data provided.
+Please provide instructions to start the application with the sample data provided.
 
 # Evaluation criteria
 
 Your work will be evaluated based on:
 - User experience quality
 - Code performance
-- Code clarity and maintainabilty
+- Code clarity and maintainability
 
-Note that this exercice is not about developing a graphical library from scratch; on the contrary it is encouraged to use existing librairies when relevant.
+Note that this exercise is not about developing a graphical library from scratch; on the contrary, it is encouraged to use existing libraries when relevant.
